@@ -1,1 +1,9 @@
-不修改username，默认提交
+修改local后提交:
+
+1、修改方式
+git config --local user.name "wsy"
+git config --local user.email "wsycomeon@gmail.com"
+
+
+2、查看结果
+git config --local -l
